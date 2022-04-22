@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: gray;
+}
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.qbox {
+    margin-bottom: 50px;
+    display: block;
+}
+
+fieldset {
+    padding: 25px;
+}
+
+fieldset div{
+    display: flex;
+    justify-content: space-between;
+}
+
+fieldset div input{
+    width: 45%;
+    max-height: 30px;
+}
+
+.q1 {
+    margin-top: 20px;
+}
+
+.table {
+     border: 10px solid gray;
+     border-radius: 30px;
+     padding: 20px;
+}
+
+.onay input{
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.onay input:hover{
+    background-color: green;
+    font-weight: 700;
+}

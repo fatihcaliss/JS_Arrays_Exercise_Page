@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWorkshop</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome Basic JavaScript Test</h1>
+        <h3>Please answer the following questions according to this list.</h3>
+        <div id="codpart"><code>let nums = [1,2,3,4]</code></div>
+        <form action="">
+            <div class="qbox q1">
+                <fieldset>
+                    <legend>Question-1</legend>
+                    <div>
+                        <label class="question" for="q11"> 1. Remove number "3" in a list.</label>
+                        <input class="ans1" type="text" name="answer1" id="1" value="" placeholder="write your answer.">
+                     </div>
+                </fieldset>
+            </div>
+            <div class="qbox q2">
+                <fieldset>
+                    <legend>Question-2</legend>
+                    <div>
+                        <label class="question" for="q22"> 2. Remove last element in the list **</label>
+                        <input class="ans2" type="text" name="answer2" id="2" placeholder="write your answer." value="">
+                     </div>
+                </fieldset>
+            </div>
+            <div class="qbox q3">
+                <fieldset>
+                    <legend>Question-3</legend>
+                    <div>
+                        <label class="question" for="q33">3. Remove all items in the list.</label>
+                        <input class="ans3" type="text" name="answer3" id="3" placeholder="write your answer." value="">
+                     </div>
+                </fieldset>
+            </div>
+            <div class="qbox q4">
+                <fieldset>
+                    <legend>Question-4</legend>
+                    <div>
+                        <label class="question" for="q44"> 4. Extent list with  b = [5,6,7,8] </label>
+                        <input class="ans4" type="text" name="answer4" id="4" placeholder="write your answer." value="">
+                     </div>
+                </fieldset>
+            </div>
+            <div class="qbox q5">
+                <fieldset>
+                    <legend>Question-5</legend>
+                    <div>
+                        <label class="question" for="q55"> 5. Insert number "1" in 0th position</label>
+                        <input class="ans5" type="text" name="answer5" id="5" placeholder="write your answer." value="">
+                     </div>
+                </fieldset>
+            </div>
+            <div class="qbox q6">
+                <fieldset>
+                    <legend>Question-6</legend>
+                    <div>
+                        <label class="question" for="q66">Insert "two-and-half" in 2nd position</label>
+                        <input class="ans6" type="text" name="answer6" id="6" placeholder="write your answer." value="">
+                     </div>
+                </fieldset>
+                <div class="onay">
+                    <fieldset>
+                        <legend><h3>Exercise Submit</h3></legend>
+                       <input type="checkbox" name="chk" id="check">
+                       <label for="chk">I understood all of the questions. </label>
+                       <br>
+                       <input id="save" type="button" value="Save">
+                       <input type="reset" value="Reset Test" onclick="refresh()">
+                    </fieldset>
+                </div>
+            </div>
+        </form>
+        <div class="table">
+            <p>Congratulations.. Your <b>score</b>  is : <span id="result"></span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
